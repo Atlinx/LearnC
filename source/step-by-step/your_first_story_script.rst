@@ -1,0 +1,176 @@
+.. _doc_your_first_story_script:
+
+Your first story script
+=======================
+
+Lets get started writing a basic story script that's a conversation between two people.
+
+.. tabs::
+ .. code-tab:: storyscript StoryScript
+    
+    func oof():
+        pass
+    
+    # ----- BGScenes ----- #
+    var bg_library1 = Scene(texture_path="res://addons/FracturalVNE/_modules/default_assets/bg_images/library_1.png")
+    var bg_library2 = Scene("res://addons/FracturalVNE/_modules/default_assets/bg_images/library_2.png")
+    var bg_library3 = Scene(texture_path="res://addons/FracturalVNE/_modules/default_assets/bg_images/library_3.png")
+
+    import "res://demo/testing/testing_definitions.story"
+    
+    label looped:
+        "Testing show and remove..."
+        show godette happy with fade_to_black
+        pause 0.1
+        remove godette
+        "Tested show and remove"
+        
+        "Testing move and remove..."
+        show godette happy
+        move godette to Point(0, 0)
+        move godette to Point(500, 0) with linear for 2
+        pause 0.1
+        remove godette
+        "Tested move and remove"
+        
+        "Testing animate and remove..."
+        show godette happy
+        animate godette with hop
+        pause 0.1
+        remove godette
+        "Tested animate and remove"
+        
+        "Testing scene show..."
+        scene bg_library2 with fade_to_black
+        "Tested scene show"
+        
+        "Testing scene replace show..."
+        scene bg_library3 with fade_to_black
+        "Tested scene replace show"
+        
+        "Testing full transition (with bgm and scene)..."
+        transition fade_to_black:
+            sound music bgm_poppy_shop
+            scene bg_library1
+        "Tested full transition"
+        
+        "Testing sound..."
+        sound sfx sfx_entrance_chime
+        "Tested sound"
+        
+        "Testing sound interrupting..."
+        sound sfx sfx_entrance_chime
+        pause 0.1
+        sound sfx sfx_entrance_chime
+        pause 0.1
+        sound sfx sfx_entrance_chime
+        "Tested sound interrupting"
+
+        "Testing sound queueing..."
+        sound queued_channel sfx_entrance_chime
+        pause 0.1
+        sound queued_channel sfx_entrance_chime
+        pause 0.1
+        sound queued_channel sfx_entrance_chime
+        "Tested sound queueing"
+
+        move godette2 to Point(-400, 0)
+        move godette3 to Point(-300, 0)
+        move godette4 to Point(-200, 0)
+        move godette5 to Point(-100, 0)
+        move godette10 to Point(500, 0)
+        move godette9 to Point(400, 0)
+        move godette8 to Point(300, 0)
+        move godette7 to Point(200, 0)
+        move godette6 to Point(100, 0)
+        
+        "Testing stacked show..."
+        show godette happy with fade_to_black
+        show godette sad with fade_to_black
+        show godette surprised with fade_to_black
+        "Tested stacked show"
+        
+        "Testing move..."
+        move godette to Point(-500, 0) with ease_in
+        "Tested move"
+        
+        "Testing show..."
+        show godette2 surprised with fade_to_black
+        show godette3 surprised with fade_to_black
+        show godette4 surprised with fade_to_black
+        show godette5 surprised with fade_to_black
+        
+        show godette6 surprised with cross_fade
+        show godette7 surprised with cross_fade
+        show godette8 surprised with cross_fade
+        show godette9 surprised with cross_fade
+        show godette10 surprised with cross_fade
+        "Tested show"
+        
+        "Testing character dialogue..."
+        godette "Hi there!"
+        "Tested character dialogue"
+        
+        "Testing narration..."
+        "This is some narration"
+        "Tested narration"
+        
+        "Testing string character dialogue..."
+        "Bob" "I'm dialogue using a string for the character name!"
+        "Tested string character dialogue"
+        
+        "Testing animation"
+        animate godette with hop	
+        pause 0.1
+        animate godette2 with hop
+        pause 0.1
+        animate godette3 with hop
+        pause 0.1
+        animate godette4 with hop
+        pause 0.1
+        animate godette5 with hop
+        pause 0.1
+        animate godette6 with hop
+        pause 0.1
+        animate godette7 with hop
+        pause 0.1
+        animate godette8 with hop
+        pause 0.1
+        animate godette9 with hop
+        pause 0.1
+        animate godette10 with hop
+        pause 1
+        "Tested animation"
+        
+        "Test hiding..."
+        hide godette with cross_fade
+        pause 0.1
+        hide godette2 with cross_fade
+        pause 0.1
+        hide godette3 with cross_fade
+        pause 0.1
+        hide godette4 with cross_fade
+        pause 0.1
+        hide godette5 with cross_fade
+        pause 0.1	
+        hide godette6 with cross_fade
+        pause 0.1
+        hide godette7 with cross_fade
+        pause 0.1
+        hide godette8 with cross_fade
+        pause 0.1
+        hide godette9 with cross_fade
+        pause 0.1
+        hide godette10 with cross_fade
+        pause 2
+        "Tested hiding"
+        
+        "Test jumping (looping back)..."
+        jump looped
+
+.. code-block:: storyscript
+
+    if lol:
+        define some_var = 12034.3230400
+    else:
+        bob "oof"
