@@ -1,13 +1,13 @@
-# Fractural VNE Docs
+# Learn C
 
-Documentation for the [Fractural Visual Novel Engine](https://github.com/Fractural/FracturalVisualNovelEngine).
+A website for learning C
 
-Built with [Sphinx](https://www.sphinx-doc.org/en/master/), [Read the Docs](https://readthedocs.org/) and a customized version of the [Godot Docs' sphinx theme](https://github.com/godotengine/godot-docs).
+Built with [Sphinx](https://www.sphinx-doc.org/en/master/), [Read the Docs](https://readthedocs.org/).
 
 Available on:
 
-- [Github Pages](https://fractural.github.io/FracturalVNEDocs)
-- [Read the Docs](https://fracturalvne.readthedocs.io/)
+- [Github Pages](https://atlinx.github.io/LearnC)
+- [Read the Docs](https://learnc.readthedocs.io/)
 
 ## How to Build
 1. To build it you'll need [Python](https://www.python.org/downloads/), [CMake](https://cmake.org/install/), and some other libraries.
