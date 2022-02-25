@@ -1,21 +1,24 @@
-.. Fractural VNE documentation master file, created by
-   sphinx-quickstart on Sat Aug 21 22:32:20 2021.
+.. Learning Sphinx documentation master file, created by
+   sphinx-quickstart on Thu Feb 24 21:56:01 2022.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Fractural VNE Docs
-=====================================================================
-
-Welcome to the documentation of Fractural Visual Novel Engine, a free and open source visual novel game engine built on Godot.
+Learning C 💻
+=================
 
 .. toctree::
-   :maxdepth: 1
-   :caption: General
-   :name: sec-general
+   :maxdepth: 2
+   
+   what_is_programming
+   setup
 
-.. toctree::
-	:maxdepth: 1
-	:caption: Getting Started
-	:name: sec-getting-started
+Welcome to learning C!
 
-	step-by-step/index
+This website will teach you how to make a text-based adventure game using the C programming langauge. If you've never programmed before, this is the perfect place to start!
+
+Navigation🚦
+************
+
+A table of contents is available on the left side of the site. Feel free to use the search bar on the top-left to search for specific pages.
+
+Click on the next button below to visit the next page.
