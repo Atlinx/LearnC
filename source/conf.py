@@ -10,7 +10,7 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
+import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
@@ -57,3 +57,11 @@ html_theme = 'furo'
 html_static_path = ['_static']
 
 html_css_files = ['custom.css']
+
+on_rtd = os.environ.get("READTHEDOCS", None) == "True"
+on_gh_pages = "GITHUB_REPOSITORY" in os.environ
+
+if on_gh_pages:
+	notfound_urls_prefix = "/FracturalVNEDocs/"
+elif not on_rtd:
+    notfound_urls_prefix = ''
