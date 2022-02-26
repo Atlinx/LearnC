@@ -62,6 +62,6 @@ on_rtd = os.environ.get("READTHEDOCS", None) == "True"
 on_gh_pages = "GITHUB_REPOSITORY" in os.environ
 
 if on_gh_pages:
-	notfound_urls_prefix = "/FracturalVNEDocs/"
+	notfound_urls_prefix = "/LearnC/"
 elif not on_rtd:
-    notfound_urls_prefix = ''
+	notfound_urls_prefix = ''
