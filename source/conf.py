@@ -34,6 +34,7 @@ html_title = "Learning C 🌱"
 extensions = [
 	'notfound.extension',
 	'sphinx_toolbox',
+	'sphinx.ext.autosectionlabel',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -66,7 +67,34 @@ on_gh_pages = "GITHUB_REPOSITORY" in os.environ
 
 html_js_files = ['custom.js']
 
+
+# -- Furo --------------------------------------------------------------------
+
+html_theme_options = {
+	"light_css_variables": {
+		"admonition-font-size": "qem",
+	},
+	"dark_css_variables": {
+		"admonition-font-size": "1em",
+	}
+}
+
+
+# -- Autosection Label -------------------------------------------------------
+
+autosectionlabel_prefix_document = True;
+autosectionlabel_maxdepth = 2;
+
+
+# -- Not Found Page ----------------------------------------------------------
+
 if on_gh_pages:
 	notfound_urls_prefix = "/LearnC/"
 elif not on_rtd:
 	notfound_urls_prefix = ''
+
+
+# -- Sphinx Toolbox ----------------------------------------------------------
+
+github_username = "Atlinx"
+github_repository = "github.com/atlinx/LearnC"

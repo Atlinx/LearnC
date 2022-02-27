@@ -17,41 +17,88 @@ Run your code and you should see the text "Hello world!" printed to your output 
 But how this code actually works.
 
 ``main()``
-**********
+----------
 
-``main()`` is a function, which will be covered later. All you have to know for now is that this is the starting point of the program. Everything between the brackets of main will be ran when 
+``main()`` is a function. We will talk more about ``functions`` and what ``return`` is in the :ref:`functions:Functions ⚙️` page. 
 
-Note that you must include return
+All you have to know for now is that this is the starting point of the program. Everything between the brackets of main will be ran when the program starts.
 
-``printf()``
-************
+The "stuff" in between the brackets are **statements**.
 
-``printf()``` is also a function, and it displays or **prints** text to the output window. 
+Statements
+^^^^^^^^^^
 
-You can print text by passing in a **string**, which is a sequence of characters. You can write strings by wrapping text in double quotes
+A statement is a single piece of instruction in our code. In C, statements always end with a semicolon, which is the ``;`` symbol. You should put each statement on it's own line to keep your code readable --- otherwise it may get too cramped and cluttered!
 
-	**Ex.**
+.. admonition:: Good
+	:class: tip
+
+	.. code-block:: c
+
+		#include <stdio>
+
+		int main() {
+			printf("My name is Bob, ");
+			printf("my name is Joe, "); 
+			printf("and my name is Tom!"); 
+			return 0;
+		}
+
+
+.. admonition:: Bad
+	:class: attention
 	
 	.. code-block:: c
 
-		"I'm a string!"
-		"100 red apples"
-		"The quick brown fox"
+		#include <stdio>
 
+		int main() {
+			printf("My name is Bob, "); printf("my name is Joe, "); printf("and my name is Tom!"); return 0;
+		}
 
-.. container:: toggle
+``printf()``
+------------
 
-    .. container:: header
+``printf()`` is a function, whose name is short for "print format". This function displays or **prints** text to the output window. 
 
-        **Show/Hide Code**
+printf can print text using the statement ``printf("text");`` where ``text`` with the text you want to print.
 
-    .. code-block:: xml
-       :linenos:
+.. seealso::
 
-       from plone import api
-       ...
+	We will talk more about functions later in a the :ref:`functions:Functions ⚙️` chapter.
 
-.. admonition:: Note
-	hello
+Tasks 🎯
+-------
 
-Task 
+.. |check| raw:: html
+
+    <input type="checkbox">
+
+|check| Print your name to the output
+
+	.. collapse:: Solution ✅
+
+		.. code-block:: c
+
+			#include <stdio>
+
+			int main() {
+				printf("My name is Bob!");
+				return 0;
+			}
+
+|check| Print your name to the output using a print statement for each word
+
+	.. collapse:: Solution ✅
+
+		.. code-block:: c
+
+			#include <stdio>
+
+			int main() {
+				printf("My ");
+				printf("name ");
+				printf("is ");
+				printf("bob ");
+				return 0;
+			}

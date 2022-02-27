@@ -3,7 +3,7 @@
 # Sync with readthedocs:
 # https://github.com/readthedocs/readthedocs.org/blob/master/requirements/pip.txt
 # https://github.com/readthedocs/readthedocs.org/blob/master/requirements/docs.txt
-sphinx==4.0.2
+sphinx==4.4.0
 furo==2022.2.23
 
 # Custom 404 error page (more useful than the default)
