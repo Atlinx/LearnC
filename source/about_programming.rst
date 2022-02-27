@@ -17,7 +17,7 @@ Programming is making instructions or **programs** that a computer can follow. T
 
 When a computer is following instructions of a program, we say that the computer is **running** the program.
 
-.. image:: img/source_code_vs_binary.png
+.. image:: _img/source_code_vs_binary.png
 	:alt: Source code vs binary
 	:align: right
 	:width: 300

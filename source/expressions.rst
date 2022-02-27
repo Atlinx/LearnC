@@ -128,7 +128,7 @@ Tasks 🎯
 
 	.. collapse:: Solution ✅
 
-		``3 / 2 = 1`` due to :ref:`Integer Division`.
+		``3 / 2 = 1`` due to :ref:`experssions:Integer Division`.
 
 |check| What does the experssion ``(5 + 2) % 3 / 2``
 

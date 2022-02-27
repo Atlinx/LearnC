@@ -3,7 +3,7 @@ Setup 🛠️
 
 We will jump straight into C programming, so you should use an online C compiler to avoid the hassle of setting up C on your own computer. This guide will go over how to use `Programiz's Online C Compiler <https://www.programiz.com/c-programming/online-compiler/>`_.
 
-.. figure:: img/online_c_compiler.png
+.. figure:: _img/online_c_compiler.png
 	:alt: Online C compiler
 	:align: center
 
@@ -12,7 +12,7 @@ We will jump straight into C programming, so you should use an online C compiler
 Code Editor
 ************
 
-.. image:: img/online_c_compiler_text_editor.png
+.. image:: _img/online_c_compiler_text_editor.png
 	:alt: Online C compiler text editor
 	:align: center
 
@@ -25,7 +25,7 @@ When you press the run button, the website will automatically compile your sourc
 Output
 ******
 
-.. image:: img/online_c_compiler_output.png
+.. image:: _img/online_c_compiler_output.png
 	:alt: Online C compiler output
 	:align: center
 

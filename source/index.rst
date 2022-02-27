@@ -12,7 +12,7 @@ Learn C 🌱
    
    about_programming
    setup
-   hello_world
+   hello_world/hello_world
    types
    expressions
    literals
