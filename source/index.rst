@@ -13,8 +13,10 @@ Learning C 🌱
    about_programming
    setup
    hello_world
-   if_statements
+   types
+   literals
    variables
+   control_statements
    functions
    pointers
    getting_input
