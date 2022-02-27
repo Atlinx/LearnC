@@ -31,29 +31,29 @@ Statements
 A statement is a single piece of instruction in our code. In C, statements always end with a semicolon, which is the ``;`` symbol. You should put each statement on it's own line to keep your code readable --- otherwise it may get too cramped and cluttered!
 
 .. admonition:: Good
-	:class: tip
+	:class: good
 
 	.. code-block:: c
 
 		#include <stdio>
 
 		int main() {
-			printf("My name is Bob, ");
-			printf("my name is Joe, "); 
-			printf("and my name is Tom!"); 
-			return 0;
+		    printf("My name is Bob, ");
+		    printf("my name is Joe, "); 
+		    printf("and my name is Tom!"); 
+		    return 0;
 		}
 
 
 .. admonition:: Bad
-	:class: attention
+	:class: bad
 	
 	.. code-block:: c
 
 		#include <stdio>
 
 		int main() {
-			printf("My name is Bob, "); printf("my name is Joe, "); printf("and my name is Tom!"); return 0;
+		    printf("My name is Bob, "); printf("my name is Joe, "); printf("and my name is Tom!"); return 0;
 		}
 
 ``printf()``
@@ -67,14 +67,22 @@ printf can print text using the statement ``printf("text");`` where ``text`` wit
 
 	We will talk more about functions later in a the :ref:`functions:Functions ⚙️` chapter.
 
+---------
+
 Tasks 🎯
--------
+---------
 
 .. |check| raw:: html
 
     <input type="checkbox">
 
-|check| Print your name to the output
+|check| Print "My name is __blank__", name to the output, replacing "__blank__" with your name. 
+
+.. code-block:: bash
+		
+	My name is Bob!
+
+..
 
 	.. collapse:: Solution ✅
 
@@ -83,11 +91,17 @@ Tasks 🎯
 			#include <stdio>
 
 			int main() {
-				printf("My name is Bob!");
-				return 0;
+			    printf("My name is Bob!");
+			    return 0;
 			}
 
-|check| Print your name to the output using a print statement for each word
+|check| Print your name to the output like before except use a print statement for each word
+
+.. code-block:: bash
+	
+	My name is Bob!
+
+..
 
 	.. collapse:: Solution ✅
 
@@ -96,9 +110,9 @@ Tasks 🎯
 			#include <stdio>
 
 			int main() {
-				printf("My ");
-				printf("name ");
-				printf("is ");
-				printf("bob ");
-				return 0;
+			    printf("My ");
+			    printf("name ");
+			    printf("is ");
+			    printf("bob ");
+			    return 0;
 			}

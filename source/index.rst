@@ -14,6 +14,7 @@ Learn C 🌱
    setup
    hello_world
    types
+   expressions
    literals
    variables
    control_statements
@@ -28,7 +29,7 @@ Welcome to **Learn C**!
 This website will teach you the C programming langauge through hands-on projects. It's designed to work with absolute beginners, so if you've never programmed before, this is the perfect place to start!
 
 Navigation🚦
-************
+------------
 
 A table of contents is available on the left side of the site. You can use the search bar on the top-left to search for specific pages.
 Additionally, you can navigate between pages with the next and previous buttons on the bottom.
