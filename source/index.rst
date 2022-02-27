@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Learning C 🌱
+Learn C 🌱
 =================
 
 .. toctree::
@@ -23,10 +23,9 @@ Learning C 🌱
    text_adventure_game
    next_steps
 
+Welcome to **Learn C**!
 
-Welcome to **Learning C**!
-
-This website will teach you how to make a text-based adventure game using the C programming langauge. If you've never programmed before, this is the perfect place to start!
+This website will teach you the C programming langauge through hands-on projects. It's designed to work with absolute beginners, so if you've never programmed before, this is the perfect place to start!
 
 Navigation🚦
 ************

@@ -17,13 +17,13 @@ import os
 
 # -- Project information -----------------------------------------------------
 
-project = 'Learning C'
+project = 'Learn C'
 copyright = '2022, Atlinx'
 author = 'Atlinx'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0.0'
-html_title = "Learning C 🌱"
+html_title = "Learn C 🌱"
 
 
 # -- General configuration ---------------------------------------------------
