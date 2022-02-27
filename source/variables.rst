@@ -1,22 +1,96 @@
 Variables 📦
 =============
 
-A variable is something that contains a value.
+A variable is a name given to a space that the our program can use. Think of variables as a labelled box that can hold a value.
 
-To create or **declare** a variable in C, you first need to know what a type is
+Declaring a Variable
+--------------------
+To create or **declare** a variable in C, you do
 
-Declaring a variable
-********************
-do 
+``var_type var_name;``
+	where 
+	
+	``var_type`` is the type of the variable,
+	
+	``var_name`` is the name of the variable.
 
-	``var_type var_name;``
+.. admonition:: Ex.
+	:class: example
 
-	where
+	.. code-block:: c
 
-	`var_type` is the type of the variable
-	``
+		int number;
+		float decimal_number;
 
-.. code-block:: c
+The name of the variable can only contain letters (``A-Z``), numbers (``0-9``), and underscores (``_``). The name must also begin with a letter.
 
-	var_type var_name;
+.. admonition:: Good
+	:class: good
+	
+	.. code-block:: c
 
+		int valid_name;
+		char ValidName;
+		float valid_name_0439;
+
+.. admonition:: Bad
+	:class: bad
+	
+	.. code-block:: text
+
+		int 92invalid_name;
+		char _invalid_name;
+		float invalid#_name&;
+
+Using a Variable's Value
+------------------------
+
+To use use a varaible's value, you just write the variable's name.
+
+Printing a Variable
+^^^^^^^^^^^^^^^^^^^
+
+You can print a variable just 
+
+
+Assigning Values to a Variable
+******************************
+
+
+Initializing a Variable
+***********************
+To *initialize* a variable, or create a variable that has a starting value, you do
+
+``var_type var_name = ;``
+	where 
+	
+	``var_type`` is the type of the variable,
+	
+	``var_name`` is the name of the variable.
+
+---------
+
+Tasks 🎯
+---------
+
+.. |check| raw:: html
+
+    <input type="checkbox">
+
+|check| Create a character variable can be used to represent 5820? 
+
+	.. collapse:: Solution ✅
+
+		Integer
+
+|check| What type can be used to represent the letter C?
+
+	.. collapse:: Solution ✅
+
+		Character
+
+|check| What type can be used to represent the phrase, "the quick brown fox jumps over the lazy dog"?
+
+	.. collapse:: Solution ✅
+
+		String

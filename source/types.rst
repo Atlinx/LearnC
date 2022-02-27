@@ -1,7 +1,7 @@
 Types 🔤
 =========
 
-A **type** in C is a representation of a certain "type" of data. Here are the list of the 3 common types we will be dealing with:
+A **type** in C is a representation of a certain "type" of data. Every value in C has a "type." Here are the list of the 3 common types we will be dealing with:
 
 .. list-table::
 	:header-rows: 1
@@ -40,6 +40,7 @@ In programming, a sequence of characters is called a **string**. Although many p
 
 	We will go into what ``char *`` means and how strings are represented later in the :ref:`pointers:Pointers ☝️` chapter.
 
+---------
 
 Tasks 🎯
 ---------
