@@ -25,7 +25,7 @@ Learn C 🌱
 
 Welcome to **Learn C**!
 
-This website will teach you how to make a text-based adventure game using the C programming langauge. If you've never programmed before, this is the perfect place to start!
+This website will teach you the C programming langauge through hands-on projects. It's designed to work with absolute beginners, so if you've never programmed before, this is the perfect place to start!
 
 Navigation🚦
 ************
