@@ -13,16 +13,20 @@ Code Editor
 ************
 
 .. image:: img/online_c_compiler_text_editor.png
-	:alt: Online C compiler
+	:alt: Online C compiler text editor
 	:align: center
 
-On the right half of the website, you should see the code editor. You can toggle fullscreen using the cornered square button, toggle night mode using the moon button, and run your C program using the "Run" button.
+On the left half of the website, you should see the code editor, where you can editor your source code. This website only supported only one source code file, but that is enough for this guide. 
 
-.. code-block:: c
+You can toggle fullscreen using the cornered square button, toggle night mode using the moon button, and run your C program using the "Run" button.
 
-	#include <stdio>
+When you press the run button, the website will automatically compile your source code and run it.
 
-	int main() {
-		printf("Hello world!");
-		return 0;
-	}
+Output
+******
+
+.. image:: img/online_c_compiler_output.png
+	:alt: Online C compiler output
+	:align: center
+
+On the right half of the website, you should see the output. This is where while running, your program can display text and receive text input. 

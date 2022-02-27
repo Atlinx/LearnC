@@ -6,3 +6,17 @@ img {
 figure[id] img {
 	margin-bottom: 0px;
 }
+
+/* Custom toggle */
+/* .toggle .header {
+    display: block;
+    clear: both;
+}
+
+.toggle .header:after {
+    content: " ▶&#xFE0E;";
+}
+
+.toggle .header.open:after {
+    content: " ▼&#xFE0E;";
+} */

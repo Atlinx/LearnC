@@ -33,6 +33,7 @@ html_title = "Learning C 🌱"
 # ones.
 extensions = [
 	'notfound.extension',
+	'sphinx_toolbox',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -58,8 +59,12 @@ html_static_path = ['_static']
 
 html_css_files = ['custom.css']
 
+html_favicon = '_static/favicon.ico'
+
 on_rtd = os.environ.get("READTHEDOCS", None) == "True"
 on_gh_pages = "GITHUB_REPOSITORY" in os.environ
+
+html_js_files = ['custom.js']
 
 if on_gh_pages:
 	notfound_urls_prefix = "/LearnC/"

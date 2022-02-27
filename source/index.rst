@@ -10,8 +10,17 @@ Learning C 🌱
    :hidden:
    :maxdepth: 2
    
-   what_is_programming
+   about_programming
    setup
+   hello_world
+   if_statements
+   variables
+   functions
+   pointers
+   getting_input
+   text_adventure_game
+   next_steps
+
 
 Welcome to **Learning C**!
 
