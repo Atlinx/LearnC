@@ -33,7 +33,7 @@ html_title = "Learn C 🌱"
 # ones.
 extensions = [
 	'notfound.extension',
-	'sphinx_toolbox',
+	'sphinx_toolbox.collapse',
 	'sphinx.ext.autosectionlabel',
 ]
 

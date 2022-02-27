@@ -29,7 +29,7 @@ A **type** in C is a representation of a certain "type" of data. Here are the li
 	  - "hello world!", "the quick brown fox"
 
 More on Strings
--------
+----------------
 
 In programming, a sequence of characters is called a **string**. Although many programming languages have a dedicated string type, C does not, which is why you see String using the ``char *`` keyword in the previous table. But for this guide, we will consider strings to be a "type"
 
@@ -42,7 +42,7 @@ In programming, a sequence of characters is called a **string**. Although many p
 
 
 Tasks 🎯
--------
+---------
 
 .. |check| raw:: html
 
