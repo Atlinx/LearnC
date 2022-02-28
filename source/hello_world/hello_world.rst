@@ -1,14 +1,6 @@
 Hello World 👋
 ===============
 
-.. toctree::
-	:hidden:
-	:maxdepth: 2
-
-	syntax_and_errors
-	strings
-	printf
-
 The website should automatically have generated some C code when you'd opened it. If you are using your own editor, you can copy and paste th following text into your source file.
 
 .. code-block:: c
