@@ -34,7 +34,7 @@ To create a float literal, we just write the number like how you would normally 
 		2340.43438
 
 Character Literal
----------------
+-----------------
 
 To create a character literal, we can use single-quotes surrounding a single character:
 
@@ -69,3 +69,44 @@ To create a string literal, we can use double-quotes surrounding some text:
 	.. code-block:: c
 
 		printf("This is a string literal being used in printf!");
+
+---------
+
+Tasks 🎯
+---------
+
+.. |check| raw:: html
+
+    <input type="checkbox">
+
+|check| Create a string literal for your full name. 
+
+	.. collapse:: Solution ✅
+
+		.. code-block:: c
+
+			"John Smith"
+
+|check| Create a character literal for the first letter of "apple".
+
+	.. collapse:: Solution ✅
+
+		.. code-block:: c
+
+			'a'
+
+|check| Create a float literal for three and fifty-four hundredths.
+
+	.. collapse:: Solution ✅
+
+		.. code-block:: c
+
+			3.54
+
+|check| Create an integer literal for negative four-hundred and five.
+
+	.. collapse:: Solution ✅
+
+		.. code-block:: c
+
+			-405
