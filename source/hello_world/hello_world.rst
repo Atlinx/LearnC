@@ -1,7 +1,7 @@
 Hello World 👋
-===============
+================
 
-The website should automatically have generated some C code when you'd opened it. If you are using your own editor, you can copy and paste th following text into your source file.
+The Programmiz website should automatically have generated some C code when you open it. If you are using your own editor, you can copy and paste th following text into your source file.
 
 .. code-block:: c
 
