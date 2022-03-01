@@ -1,7 +1,7 @@
 Escape Sequences 🪜
 ====================
 
-Escape sequences are a special sequence of characters beginning with `\` that represent a single character. They are often used to write out untypeable characters, such as new lines, tabs, or double-quotation marks inside of a string.
+Escape sequences are a special sequence of characters beginning with ``\`` that represent a single character. They are often used to write out untypeable characters, such as new lines, tabs, or double-quotation marks inside of a string.
 
 Here's a list of common escape sequences:
 

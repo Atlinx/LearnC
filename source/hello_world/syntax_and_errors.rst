@@ -37,7 +37,7 @@ Lets break down this error
 ``/tmp/8h2q11m6TV.c``
 	This tells you which file the error occured in. 
 	
-	If you are using Programmiz's C online compiler, you may wonder why the file name ``8h2q11m6TV.c`` doesn't match the file name of ``main.c``. This is just a quirk with that online compiler, because your scripts names are actually managed the server in the background.
+	If you are using Programmiz's C online compiler, you may wonder why the file name ``8h2q11m6TV.c`` doesn't match the file name of ``main.c``. This is just a quirk with that online compiler, because your script's file name is actually managed the server in the background.
 
 ``:4:23:``
 	This tells you which line and column the error occured.
@@ -55,9 +55,9 @@ Lets break down this error
 
 Depending on your compiler, it may also show a small visual of what the code looks like around the region of error. 
 
-For the Programmiz compiler, shows the lines that are causing the error and puts squiggles under the parts that relate to the error. Additionally, even provides an arrow indicating where the semicolon should be. 
+For the Programmiz compiler, it shows the lines that are causing the error and puts squiggles under the parts related to the error. Additionally, it even provides an arrow indicating where the semicolon should be. 
 
-So if you ever get an error, take the time to read about it and where it occured to fix it. If you still can't figure out what went wrong, then googling the error text is your next best option! Most of the time you will find other's asking the same question on `StackOverflow <https://stackoverflow.com/>`_ or another online programming forum.
+So if you ever get an error, take the time to read about it and where it occured to fix it. If you still can't figure out what went wrong, then googling the error text is your next best option! Most of the time you will find other people asking the same question on `StackOverflow <https://stackoverflow.com/>`_ or on another online forum.
 
 Case-sensitivity
 -----------------
