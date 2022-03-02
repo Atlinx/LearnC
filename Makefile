@@ -24,6 +24,10 @@ autobuild:
 	@$(SPHINXAUTOBUILD) "$(SOURCEDIR)" "$(BUILDDIR)/html"
 	python3 -m http.server --directory "$(BUILDDIR)/html"
 
+win-autobuild:
+	@$(SPHINXAUTOBUILD) "$(SOURCEDIR)" "$(BUILDDIR)\html"
+	python3 -m http.server --directory "$(BUILDDIR)\html"
+
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
