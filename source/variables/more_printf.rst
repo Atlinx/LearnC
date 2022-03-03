@@ -1,7 +1,7 @@
 More Printf() 🖨️
 ======================
 
-The `printf` function can do more than just print strings! It can also print strings with numbers, characters, or other strings placed inside of it.
+The ``printf`` function can do more than just print strings! It can also print strings with numbers, characters, or other strings placed inside of it.
 
 To use printf, you do
 
@@ -21,7 +21,7 @@ To use printf, you do
         Here's the most common format specifiers 
 
         .. list-table::
-            :widths: 25 25 50
+            :widths: 25 50
             :header-rows: 1
 
             * - Format specifier

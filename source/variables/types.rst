@@ -31,7 +31,7 @@ A **type** in C is a representation of a certain "type" of data. Every value in 
 More on Strings
 ----------------
 
-In programming, a sequence of characters is called a **string**. Although many programming languages have a dedicated string type, C does not, which is why you see String using the ``char *`` keyword in the previous table. But for this guide, we will consider strings to be a "type"
+As you learned in Lesson 1, a sequence of characters is called a **string**. Although many programming languages have a dedicated string type, C does not, which is why you see String using the ``char *`` keyword in the previous table. But for this guide, we will consider strings to be a "type"
 
 .. note::
 	The name "string" comes from using the word "string" to describe lists of objects, such "a string of beads". For the string type, it means "a string of characters".

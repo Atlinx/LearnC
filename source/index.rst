@@ -15,7 +15,7 @@ Learn C 🌱
     introduction/setup
 
 .. toctree::
-    :caption: Hello World
+    :caption: Lesson 1 - Hello World
     :hidden:
     :maxdepth: 2
 
@@ -25,7 +25,7 @@ Learn C 🌱
     hello_world/printf
 
 .. toctree::
-    :caption: Variables
+    :caption: Lesson 2 - Variables
     :hidden:
     :maxdepth: 2
 
@@ -38,7 +38,7 @@ Learn C 🌱
     variables/initialization
 
 .. toctree::
-    :caption: Operators
+    :caption: Lesson 3 -Operators
     :hidden:
     :maxdepth: 2
 

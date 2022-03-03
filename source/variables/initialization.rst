@@ -21,7 +21,7 @@ Well you can **initialize** a variable to give it an "initial" value. The syntax
 
 .. caution::
 
-    By default, C does not initialize a variable. So if you only declare it and then try to use it, your program will run behave unexpectedly!
+    By default, C does not initialize a variable. If you only declare a varaible and then try to use it, your program will run behave unexpectedly!
 
     It's good practice to intialize every variable you declare to a value to avoid this problem.
 

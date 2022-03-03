@@ -24,4 +24,4 @@ When a computer is following instructions of a program, we say that the computer
 
 A program's instructions is called it's **source code** or **code** for short. The file that contains these instructions is sometimes called the **source file**. In C, our source files end in ``".c"``. 
 
-Often times, you can't actually run code on it's own because computers can only understand binary, which are lines of ones and zeros. Therfore we have to convert, or **compile**, our code into a **program** that can then run on our computers.
+Often times, you can't actually run code on it's own because computers can only understand binary, which are lines of ones and zeros. Therfore we have to convert, or **compile**, our code into a **program** that can then run on our computers. The special programs that compile our code are called **compilers**.

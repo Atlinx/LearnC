@@ -1,13 +1,29 @@
 Setup 🛠️
 ========
 
-We will jump straight into C programming, so you should use an online C compiler to avoid the hassle of setting up C on your own computer. This guide will go over how to use `Programiz's Online C Compiler <https://www.programiz.com/c-programming/online-compiler/>`_.
+.. todo::
+
+	Talk about split screening the website and the online code editor. Maybe have a gif of setting up split screen.
+
+We will jump straight into C programming, so you should use an online C compiler to avoid the hassle of setting up C on your own computer. This guide will go over how to use |location_link|.
+
+.. |location_link| raw:: html
+
+   <a href="https://www.programiz.com/c-programming/online-compiler/" target="_blank">Programiz's Online C Compiler</a>
 
 .. figure:: _img/online_c_compiler.png
 	:alt: Online C compiler
 	:align: center
 
 	Programiz's Online C Compiler
+
+.. tip::
+	
+	Open up the online compiler in a separate window to get a split-screen setup with one windows showing this website, and the other showing the programmiz website. This will make it easier to follow along and perform the tasks.
+
+	.. figure:: _img/split_screen_setup.png
+		:alt: Split screen setup
+		:align: center
 
 Code Editor
 ************
