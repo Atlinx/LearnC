@@ -39,9 +39,6 @@ git checkout -b gh-pages
 # Adds .nojekyll file to the root to signal to GitHub that  
 # directories that start with an underscore (_) can remain
 touch .nojekyll
- 
-# Add CNAME file
-"cogs.club" > CNAME
 
 # Add README
 cat > README.md <<EOF
