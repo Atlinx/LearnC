@@ -40,6 +40,9 @@ git checkout -b gh-pages
 # directories that start with an underscore (_) can remain
 touch .nojekyll
  
+# Add CNAME file
+"cogs.club" > CNAME
+
 # Add README
 cat > README.md <<EOF
 # README for the GitHub Pages Branch
