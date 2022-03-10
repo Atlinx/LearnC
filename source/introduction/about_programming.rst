@@ -18,9 +18,9 @@ Programming is making instructions or **programs** that a computer can follow. T
 When a computer is following instructions of a program, we say that the computer is **running** the program.
 
 .. image:: _img/source_code_vs_binary.png
-	:alt: Source code vs binary
-	:align: right
-	:width: 300
+    :alt: Source code vs binary
+    :align: right
+    :width: 300
 
 A program's instructions is called it's **source code** or **code** for short. The file that contains these instructions is sometimes called the **source file**. In C, our source files end in ``".c"``. 
 

@@ -1,13 +1,13 @@
-For Statement 
+Else Statement ❔
 =================
 
 The website should automatically have generated some C code when you'd opened it
 
 .. code-block:: c
 
-	#include <stdio>
+    #include <stdio>
 
-	int main() {
-		printf("Hello world!");
-		return 0;
-	}
+    int main() {
+        printf("Hello world!");
+        return 0;
+    }

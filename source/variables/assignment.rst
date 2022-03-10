@@ -66,7 +66,7 @@ Additionally, variables can only be assigned to after they've been declared.
         some_var = 10;
         int some_var;
 
-.. 
+..
 
 ---------
 
@@ -79,20 +79,22 @@ Tasks 🎯
 
 |check| Reassign an even value to ``some_number`` to make the code below print out a valid statement. 
 
-    .. code-block:: c
+.. code-block:: c
 
-        #include <stdio.h>
+    #include <stdio.h>
 
-        int main() {
-            int some_number;
-            some_number = 11;
+    int main() {
+        int some_number;
+        some_number = 11;
 
-            // Add a new assignment here
+        // Add a new assignment here
 
 
-            // No need to touch this! This prints out the variable.
-            printf("%d is even!", some_number);
-        }
+        // No need to touch this! This prints out the variable.
+        printf("%d is even!", some_number);
+    }
+
+..
 
     .. collapse:: Solution ✅
 

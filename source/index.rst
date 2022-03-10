@@ -6,78 +6,6 @@
 Learn C 🌱
 =================
 
-.. toctree::
-    :caption: Introduction
-    :hidden:
-    :maxdepth: 2
-    
-    introduction/about_programming
-    introduction/setup
-
-.. toctree::
-    :caption: Lesson 1 - Hello World
-    :hidden:
-    :maxdepth: 2
-
-    hello_world/hello_world
-    hello_world/syntax_and_errors
-    hello_world/strings
-    hello_world/printf
-
-.. toctree::
-    :caption: Lesson 2 - Variables
-    :hidden:
-    :maxdepth: 2
-
-    variables/types
-    variables/more_printf
-    variables/escape_sequences
-    variables/variables
-    variables/declaration
-    variables/assignment
-    variables/initialization
-
-.. toctree::
-    :caption: Lesson 3 -Operators
-    :hidden:
-    :maxdepth: 2
-
-    operators/operators
-    operators/math_operators
-    operators/expressions
-    operators/modulo
-    operators/integer_division
-
-.. .. toctree::
-.. 	:caption: Conditionals
-.. 	:hidden:
-.. 	:maxdepth: 2
-
-.. 	conditionals/if_statement
-.. 	conditionals/switch_statement
-
-.. .. toctree::
-.. 	:caption: Loops
-.. 	:hidden:
-.. 	:maxdeptH: 2
-
-.. 	loops/for_loop
-.. 	loops/while_loop
-.. 	loops/do_while_loop
-
-.. .. toctree::
-.. 	:caption: Misc
-.. 	:hidden:
-.. 	:maxdepth: 2
-
-.. 	literals
-.. 	control_statements
-.. 	functions
-.. 	pointers
-.. 	getting_input
-.. 	text_adventure_game
-.. 	next_steps
-
 Welcome to **Learn C**!
 
 This website will teach you the C programming langauge through hands-on projects. It's designed to work with absolute beginners, so if you've never programmed before, this is the perfect place to start!
@@ -96,3 +24,16 @@ Next Steps 👣
 ---------------
 
 Press the next button on the bottom right of the page to get started.
+
+
+.. toctree::
+    :hidden:
+
+    introduction/_index
+    hello_world/_index
+    variables/_index
+    operators/_index
+    conditionals/_index
+    loops/_index
+    functions/_index
+    conclusion/_index

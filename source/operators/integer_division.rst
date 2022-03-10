@@ -16,6 +16,6 @@ Tasks 🎯
 
 |check| What does the experssion ``3 / 2`` evaluate to?
 
-	.. collapse:: Solution ✅
+    .. collapse:: Solution ✅
 
-		``3 / 2 = 1`` due to :ref:`experssions:Integer Division`.
+        ``3 / 2 = 1`` due to integer division.

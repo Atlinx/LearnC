@@ -38,17 +38,19 @@ Tasks 🎯
 
 |check| Initialize ``some_number`` to an even number to make the code below print out a valid statement. 
 
-    .. code-block:: c
+.. code-block:: c
 
-        #include <stdio.h>
+    #include <stdio.h>
 
-        int main() {
-            // Edit this!
-            int some_number;
+    int main() {
+        // Edit this!
+        int some_number;
 
-            // No need to touch this! This prints out the variable.
-            printf("%d is even!", some_number);
-        }
+        // No need to touch this! This prints out the variable.
+        printf("%d is even!", some_number);
+    }
+
+..
 
     .. collapse:: Solution ✅
 

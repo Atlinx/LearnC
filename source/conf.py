@@ -83,7 +83,7 @@ html_theme_options = {
 # -- Autosection Label -------------------------------------------------------
 
 autosectionlabel_prefix_document = True;
-autosectionlabel_maxdepth = 2;
+autosectionlabel_maxdepth = 10;
 
 
 # -- Not Found Page ----------------------------------------------------------

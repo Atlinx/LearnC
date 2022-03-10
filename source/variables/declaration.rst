@@ -11,9 +11,32 @@ To create or **declare** a variable in C, you do
 
     where,
 
-    ``type`` is the type of the variable.
+    ``type`` is the type keyword of the variable.
 
     ``var_name`` is the name of the variable.
+
+Here's a table below of the different data types in C again but with their keyword types. Note that strings are not shown here because they are declared in a different way. 
+
+.. list-table::
+    :header-rows: 1
+    :widths: 10 20 50 30
+
+    * - Name
+      - Type Keyword 
+      - Description
+      - Examples
+    * - Integer
+      - ``int``
+      - Represents an integer.
+      - 0, -10, 2, 150, -349
+    * - Float
+      - ``float``
+      - Represents a decimal number, with at most 7-8 decimal places.
+      - 0, -10.43, 2.23420, 150.493, -349, -4230.340
+    * - Character
+      - ``char``
+      - Represents a single symbol.
+      - 'a', 'D', '1', '#', '^', '%', '&'
 
 .. admonition:: Ex.
     :class: example
@@ -54,15 +77,17 @@ Tasks 🎯
 
 |check| Fix the following variable names so the program compiles:
 
-    .. code-block:: c
+.. code-block:: c
 
-        #include <stdio.h>
+    #include <stdio.h>
 
-        int main() {
-            int cool name;
-            char _some_name;
-            float ben&jerry;
-        }
+    int main() {
+        int cool name;
+        char _some_name;
+        float ben&jerry;
+    }
+
+..
 
     .. collapse:: Solution ✅
 
