@@ -34,6 +34,6 @@ Press the next button on the bottom right of the page to get started.
     variables/_index
     operators/_index
     conditionals/_index
-    loops/_index
-    functions/_index
+    .. loops/_index
+    .. functions/_index
     conclusion/_index

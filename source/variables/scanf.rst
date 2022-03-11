@@ -21,6 +21,10 @@ To request input from the user, we do
     ``&variable1_name, &variable2_name, ...``
         are the variables, separated by commas, that go with the format specfifiers. The 1st variable receives the value gotten by the 1st format specifier. The 2nd variable receives the value gotten by the 2nd format specifier, and so forth.
 
+        .. important::
+
+            For string variables do not include the ``&`` symbol in front of it.
+
 .. admonition:: Ex.
     :class: example
 
@@ -50,7 +54,7 @@ To request input from the user, we do
 
         int my_number_variable = 0;
         char my_string_variable[32] = "";
-        scanf("%d %s", &my_number_variable, &my_string_variable);
+        scanf("%d %s", &my_number_variable, my_string_variable);
         printf("Gotten: %d %s", my_number_variable, my_string_variable);
         
         // Input: 
@@ -100,7 +104,7 @@ Tasks 🎯
                 char feelings[64] = "";
 
                 printf("How are you feeling today?\n");
-                scanf("%s", &feelings);
+                scanf("%s", feelings);
                 printf("You are feeling %s.", feelings);
 
                 return 0;

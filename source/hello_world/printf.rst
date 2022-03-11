@@ -43,7 +43,7 @@ Tasks 🎯
 
         .. code-block:: c
 
-            #include <stdio>
+            #include <stdio.h>
 
             int main() {
                 printf("My name is Bob!");
@@ -62,7 +62,7 @@ Tasks 🎯
 
         .. code-block:: c
 
-            #include <stdio>
+            #include <stdio.h>
 
             int main() {
                 printf("My ");

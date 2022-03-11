@@ -65,3 +65,34 @@ Here are some examples of scopes in action.
             variable_a = variable_b; 
             printf("variable_b is %d", variable_b);
         }
+
+---------
+
+Tasks 🎯
+---------
+
+.. |check| raw:: html
+
+    <input type="checkbox">
+
+|check| Is the following section of code valid?
+
+    .. code-block:: c
+    
+        {
+            int a = 1;
+            {
+                int b = 5;
+                {
+                    int c = 10;
+                }
+            }
+            c = b;
+        }
+    
+
+..
+
+    .. collapse:: Solution ✅
+
+        The code is not valid, because you cannot access c outside of the block it was declared in.

@@ -5,7 +5,7 @@ The Programmiz website should automatically have generated some C code when you 
 
 .. code-block:: c
 
-    #include <stdio>
+    #include <stdio.h>
 
     int main() {
         // Write C code here
@@ -21,7 +21,7 @@ How it Works
 
 Let's go through what each portion of the code does.
 
-``#include <stdio>``
+``#include <stdio.h>``
     This is required for ``printf()`` to work.
 
 ``// Write C code here``
@@ -55,7 +55,7 @@ Tasks 🎯
 
         .. code-block:: c
 
-            #include <stdio>
+            #include <stdio.h>
 
             int main() {
                 // Write C code here

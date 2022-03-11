@@ -8,6 +8,8 @@ This is why we have **conditionals**, which are statements that let us make bran
 .. toctree::
     :maxdepth: 1
 	
+    boolean_operators
+    strcmp
     scope
     if_statement
     else_statement
