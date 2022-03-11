@@ -1,0 +1,110 @@
+/* General */
+
+img {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+figure[id] img {
+	margin-bottom: 0px;
+}
+
+h3 {
+  margin-top: 1em !important;
+}
+
+
+/* Example Admonition */
+
+:root {
+  --icon--light-bulb: url('data:image/svg+xml,%3Csvg xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"%3E%3Cpath fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 22h4M5 9a7 7 0 0 1 14 0a6.972 6.972 0 0 1-3 5.734l-.542 2.566a2 2 0 0 1-1.977 1.7h-2.962a2 2 0 0 1-1.977-1.7L8 14.745A6.992 6.992 0 0 1 5 9Zm3 6h8"%2F%3E%3C%2Fsvg%3E');
+  --color-admonition-title--example: grey;
+  --color-admonition-title-background--example: hsla(0,0%,50%,.1);
+}
+
+.admonition.example {
+  border-color: var(--color-admonition-title--example);
+}
+
+.admonition.example > .admonition-title {
+  background-color: var(--color-admonition-title-background--example);
+  border-color: var(--color-admonition-title--example);
+}
+
+.admonition.example > .admonition-title::before {
+  background-color: var(--color-admonition-title--example);
+  -webkit-mask-image: var(--icon--light-bulb);
+  mask-image: var(--icon--light-bulb);
+}
+
+
+/* Good Admonition */
+
+:root {
+  --icon--circle-check: url('data:image/svg+xml,%3Csvg xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"%3E%3Cpath fill="currentColor" fill-rule="evenodd" d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11s11-4.925 11-11S18.075 1 12 1Zm4.768 9.14a1 1 0 1 0-1.536-1.28l-4.3 5.159l-2.225-2.226a1 1 0 0 0-1.414 1.414l3 3a1 1 0 0 0 1.475-.067l5-6Z" clip-rule="evenodd"%2F%3E%3C%2Fsvg%3E');
+  --color-admonition-title--good: #00c852;
+  --color-admonition-title-background--good: rgba(0,200,82,.1);
+}
+
+.admonition.good {
+  border-color: var(--color-admonition-title--good);
+}
+
+.admonition.good > .admonition-title {
+  background-color: var(--color-admonition-title-background--good);
+  border-color: var(--color-admonition-title--good);
+}
+
+.admonition.good > .admonition-title::before {
+  background-color: var(--color-admonition-title--good);
+  -webkit-mask-image: var(--icon--circle-check);
+  mask-image: var(--icon--circle-check);
+}
+
+
+/* Bad Admonition */
+
+:root {
+  --icon--circle-x: url('data:image/svg+xml,%3Csvg xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"%3E%3Cpath fill="currentColor" fill-rule="evenodd" d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11s11-4.925 11-11S18.075 1 12 1Zm3.707 8.707a1 1 0 0 0-1.414-1.414L12 10.586L9.707 8.293a1 1 0 1 0-1.414 1.414L10.586 12l-2.293 2.293a1 1 0 1 0 1.414 1.414L12 13.414l2.293 2.293a1 1 0 0 0 1.414-1.414L13.414 12l2.293-2.293Z" clip-rule="evenodd"%2F%3E%3C%2Fsvg%3E');
+  --color-admonition-title--bad: #ff5252;
+  --color-admonition-title-background--bad: rgba(255,82,82,.1);
+}
+
+.admonition.bad {
+  border-color: var(--color-admonition-title--bad);
+}
+
+.admonition.bad > .admonition-title {
+  background-color: var(--color-admonition-title-background--bad);
+  border-color: var(--color-admonition-title--bad);
+}
+
+.admonition.bad > .admonition-title::before {
+  background-color: var(--color-admonition-title--bad);
+  -webkit-mask-image: var(--icon--circle-x);
+  mask-image: var(--icon--circle-x);
+}
+
+
+/* Recall Admonition */
+
+:root {
+  --icon--light-bulb: url('data:image/svg+xml,%3Csvg xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"%3E%3Cpath fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 22h4M5 9a7 7 0 0 1 14 0a6.972 6.972 0 0 1-3 5.734l-.542 2.566a2 2 0 0 1-1.977 1.7h-2.962a2 2 0 0 1-1.977-1.7L8 14.745A6.992 6.992 0 0 1 5 9Zm3 6h8"%2F%3E%3C%2Fsvg%3E');
+  --color-admonition-title--recall: #ff9100;
+  --color-admonition-title-background--recall: rgba(255,145,0,.1);
+}
+
+.admonition.recall {
+  border-color: var(--color-admonition-title--recall);
+}
+
+.admonition.recall > .admonition-title {
+  background-color: var(--color-admonition-title-background--recall);
+  border-color: var(--color-admonition-title--recall);
+}
+
+.admonition.recall > .admonition-title::before {
+  background-color: var(--color-admonition-title--recall);
+  -webkit-mask-image: var(--icon--light-bulb);
+  mask-image: var(--icon--light-bulb);
+}
