@@ -69,7 +69,7 @@ Tasks 🎯
             int main() {
                 char first_name[64] = "";
                 printf("What is your first name?\n");
-                scanf("%s", &first_name);
+                scanf("%s", first_name);
                 
                 return 0;
             }
@@ -93,7 +93,7 @@ Tasks 🎯
             int main() {
                 char first_name[64] = "";
                 printf("What is your first name?\n");
-                scanf("%s", &first_name);
+                scanf("%s", first_name);
                 printf("Hi %s, nice to meet you!", first_name);
                 
                 return 0;
