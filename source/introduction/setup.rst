@@ -28,9 +28,9 @@ Code Editor
     :alt: Online C compiler text editor
     :align: center
 
-On the left half of the website, you should see the code editor, where you can edit your source code. This website only supported only one source code file, but that is enough for this guide. 
+On the left half of the website you should see the code editor, which is where you edit your source code. This website only supported only one source code file, but that is enough for this guide. 
 
-You can toggle fullscreen using the cornered square button, toggle night mode using the moon button, and run your C program using the "Run" button.
+You can toggle fullscreen mode using the cornered square button, toggle night mode using the moon button, and run your C program using the "Run" button.
 
 When you press the run button, the website will automatically compile your source code and run it.
 

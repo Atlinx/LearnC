@@ -30,10 +30,10 @@ Let's go through what each portion of the code does.
 ``int main() {``
     This is the starting point of the program. Everything between the brackets of main runs, from top to bottom, when the program starts.
 
-    The "stuff" between the brackets that is ran are called **statements**. Statements always end with a semicolon (``;``).
+    The "stuff" between the brackets that is ran are called **statements**. Most statements end with a semicolon (``;``).
 
 ``printf("Hello world!");``
-    This line of code displays or **prints** "Hello world!" to the output window. Notice how it ends with a ``;``, because this is a statement
+    This line of code displays or **prints** "Hello world!" to the output window. Notice how it ends with a ``;``, because this is a statement.
 
 ---------
 

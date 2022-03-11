@@ -6,9 +6,7 @@ Before we start programming, we should define why programming matters and what i
 Why Program?
 ------------
 
-But why should you bother learning how to program? 
-
-Well, programming gives you the power to create things -- whether it's a website, a video game, a social media platform, a stock trading bot, or an image recognition solution. Additionally, programming can help improve your critical thinking as it's very much a puzzle, often with more than one path to a solution. I hope you find the joy in programming after completing this guide.
+Programming gives you the power to create digital "things" on your computer -- whether it's a website, a video game, a social media platform, a stock trading bot, or an face identification application. Additionally, programming can help improve your critical thinking as it's very much a puzzle, often with more than one path to a valid solution. I hope you'll find the joy in programming after completing this guide!
 
 What is Programming?
 --------------------

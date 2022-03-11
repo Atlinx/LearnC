@@ -37,7 +37,7 @@ Lets break down this error
 ``/tmp/8h2q11m6TV.c``
     This tells you which file the error occured in. 
     
-    If you are using Programmiz's C online compiler, you may wonder why the file name ``8h2q11m6TV.c`` doesn't match the file name of ``main.c``. This is just a quirk with that online compiler, because your script's file name is actually managed the server in the background.
+    If you are using Programmiz's C online compiler, you may wonder why the file name ``8h2q11m6TV.c`` doesn't match the file name of ``main.c``. This is just a quirk with that online compiler because your script's file name is actually managed by Programmiz's server that your computer is communicating with whenever you use the website.
 
 ``:4:23:``
     This tells you which line and column the error occured.
